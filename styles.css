@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   /* background: #2f3542;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+    background-color: #2f3542;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+}
+
+.form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #ffffff;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #5352ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742fa;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+.buttonse{
+        border: none;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        background:  #1a2537;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 50px; 
+    }
+    /*prva*/
+    .pregresp {
+        border: 1px solid #7DA5E0;
+        padding: 10px;
+        margin: 10px;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        }
+        
+        .pregunta {
+        color: #7DA5E0;
+        }
+        
+        .respuestas {
+        color: #000000;
+        }
+        .color{
+            border: none;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        background:  #1a2537;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 50px; 
+
+        }
