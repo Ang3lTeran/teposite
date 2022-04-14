@@ -10,7 +10,7 @@ html{
 }
 
 body{
-	background: #D4D4D4;
+	background: #2f3542;
 	font-family: 'Open sans';
 }
 
@@ -69,15 +69,39 @@ ul.tabs li a .tab-text{
 }
 .descripcion{
 	position: absolute;
+	text-align: justify;
 	font-size: 2rem;
 	right: 2vw;
-	top: 25vh;
+	top: 34vh;
 	padding-left: 0vw;
 	width: 40vw;
 	color: #CFDEFF;
 }
+.siguenteAnterior{
 
-
+	width: 40vw;
+	height: 10vh;
+	position: absolute;
+	top: 75vh;
+	right: 2vw;
+	text-align: justify;
+}
+.vinculoSiguiente{
+	color: #C4E34F;
+	position: absolute;
+	margin-left: 27vw;
+	font-size: 2.5rem;
+	text-decoration: none;
+	font-style:unset;
+}
+.vinculoAnterior{
+	color: #C4E34F;
+	position: absolute;
+	margin-left: 5vw;
+	font-size: 2.5rem;
+	text-decoration: none;
+	font-style:unset;
+}
 
 @media screen and (max-width: 700px){
 	ul.tabs li{
