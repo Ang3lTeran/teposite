@@ -5,7 +5,9 @@
 		box-sizing: border-box;
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
-
+	html{
+		font-size: 62.5%;
+	}
 	.capa{
 		position: fixed;
 		width: 100%;
@@ -16,20 +18,31 @@
 	}
 	/*Estilos para el encabezado*/
 	.header{
-		width: 100%;
-		height: 100px;
-		position: fixed;
-		top: 0;left: 0;
+		background-color:#4D34A8;
+		display: flex;
+		width: 100vw;
+		height: 8vh;
 	}
 	.container{
-		width: 90%;
-		max-width: 1200px;
-		margin: auto;
+		width: 40vw;
+		height: 100%;
+		position: relative;
+		margin: 0;
+		margin-left: -41vw;
+		text-align: left;
+		bottom: 2vh;
 	}
-	.container .btn-menu, .logo{
-		float: left;
-		line-height:100px;
+	.btn-menu{
+		width: 60vw;
+		display: inline-block;
+		position: relative;
+		text-decoration: none;
+		text-align: right;
+		margin-left: 77vw;
+		margin-top: 50wh;
+		top: 4vh;
 	}
+	
 	.container .btn-menu label{
 		color: #fff;
 		font-size: 25px;
