@@ -81,3 +81,9 @@ ul.tabs li a .tab-text{
 		padding: 20px;
 	}
 }
+
+.scrollbars {
+	overflow:scroll;
+	 height:auto;
+	 width: auto;
+}

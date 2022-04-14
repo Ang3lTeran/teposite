@@ -7,15 +7,44 @@
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="font-awesome.css">
-
+	<link rel="stylesheet" href="menu.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="main.js"></script>
+	
 </head>
-<body>¨
-	<button class="buttonse" class="wrap" type="button" onclick="location.href='index.html'">Cerrar Sesión</button>
+<body class="scrollbars">
+	<!--MENU LATERIAS-->
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<img src="tepo2.png" alt="logotipo" width="180px" height="auto">
+			</div>
+			
+
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="usuario.html">Perfil</a>
+			<a href="pagina de niveles.html">Niveles</a>
+			<a href="index.html">Cerrar Secion</a>
+
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+
+<!--TERMINA MENU LATERAL -->
+
 	<div class="wrap">
 		<ul class="tabs">
-			<li><a href="#tab1"><span class="fa fa-home"></span><span class="tab-text">Video</span></a></li>
+			<li><a href="#tab1"><span class="fa fa-home"></span><span class="tab-text">VIDEO</span></a></li>
 			<li><a href="#tab2"><span class="fa fa-group"></span><span class="tab-text">Nosotros</span></a></li>
 			<li><a href="#tab3"><span class="fa fa-briefcase"></span><span class="tab-text">Servicios</span></a></li>
 			<li><a href="#tab4"><span class="fa fa-bookmark"></span><span class="tab-text">Blog</span></a></li>
@@ -23,7 +52,7 @@
 
 		<div class="secciones">
 			<article id="tab1">
-				<h1 align="center">Video</h1>
+				<h1 align="center">VIDEO</h1>
 				<video align="center" class="wrap"  width="500" height="500" controls poster="Imagen1.png"> 
                     <source src="¿Qué es el ahorro_.mp4" type="video/mp4"> 
                  </video>

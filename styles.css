@@ -79,8 +79,16 @@ body {
         cursor: pointer;
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-        border-bottom-left-radius: 30px;
+        border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px; 
+    }
+    .btncr{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px; 
+        width: auto;
+        height: auto;
     }
     /*prva*/
     .pregresp {
@@ -110,7 +118,8 @@ body {
         cursor: pointer;
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-        border-bottom-left-radius: 30px;
+        border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px; 
 
         }
+
