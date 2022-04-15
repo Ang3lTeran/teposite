@@ -32,14 +32,15 @@
 		text-align: left;
 		bottom: 2vh;
 	}
-	.btn-menu{
+	.btn-menu
+	{
 		width: 60vw;
 		display: inline-block;
 		position: relative;
 		text-decoration: none;
 		text-align: right;
 		margin-left: 77vw;
-		margin-top: 50wh;
+		margin-top: 55wh;
 		top: 4vh;
 	}
 	

@@ -61,29 +61,31 @@ ul.tabs li a .tab-text{
 	color: #D4D4D4;
 }
 .video{
-	max-width: 70vh;
+	width:50vw;
+	height:50vh; 
+	min-width: 90vh;
 	margin-top: 5vh;
 	display: inline-block;
 	position: absolute;
 	right: 11vw;
+	margin-right: -2vw;
 }
 .descripcion{
 	position: absolute;
 	text-align: justify;
 	font-size: 2rem;
 	right: 2vw;
-	top: 34vh;
-	padding-left: 0vw;
-	width: 40vw;
+	top: 33vh;
+	margin-right: 10vw;
+	width: 30vw;
 	color: #CFDEFF;
 }
 .siguenteAnterior{
-
-	width: 40vw;
+	min-width: 30vw;
 	height: 10vh;
 	position: absolute;
-	top: 75vh;
-	right: 2vw;
+	top: 80vh;
+	right: 17vw;
 	text-align: justify;
 }
 .vinculoSiguiente{
@@ -93,6 +95,7 @@ ul.tabs li a .tab-text{
 	font-size: 2.5rem;
 	text-decoration: none;
 	font-style:unset;
+	top: 4vw;
 }
 .vinculoAnterior{
 	color: #C4E34F;
@@ -101,6 +104,7 @@ ul.tabs li a .tab-text{
 	font-size: 2.5rem;
 	text-decoration: none;
 	font-style:unset;
+	top: 4vw;
 }
 
 @media screen and (max-width: 700px){
