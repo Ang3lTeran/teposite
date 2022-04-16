@@ -61,22 +61,7 @@ body {
 
 
 }
-.iconSalir   {
-    width: 3vw;
-    height: 3vw;
-    display: inline-block;
-    position: relative;
-    margin-left: 79vw;
-    margin-top: 5wh;
-    top: 1vh;
-}
-.imgIconSalir   {
-    width: 2vw;
-    height: 2vw;
-    display: inline-block;
-    position: relative;
-    top: 1.5vh;
-}
+
 .form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
     border: 0;
     background: none;

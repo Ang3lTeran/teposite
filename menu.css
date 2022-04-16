@@ -39,9 +39,9 @@
 		position: relative;
 		text-decoration: none;
 		text-align: right;
-		margin-left: 77vw;
+		margin-left: 75vw;
 		margin-top: 55wh;
-		top: 4vh;
+		top: 3.4vh;
 	}
 	
 	.container .btn-menu label{
@@ -75,6 +75,22 @@
 		padding-bottom: 5px;
 	}
 	/*Fin de Estilos para el encabezado*/
+	.iconSalir   {
+		width: 3vw;
+		height: 3vw;
+		display: inline-block;
+		position: relative;
+		margin-left: 83vw;
+		margin-top: 5wh;
+		top: 1vh;
+	}
+	.imgIconSalir   {
+		width: 1.8vw;
+		height: 1.6vw;
+		display: inline-block;
+		position: relative;
+		top: 1.6vh;
+	}
 
 	/*Menù lateral*/
 	#btn-menu{
