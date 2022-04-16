@@ -27,10 +27,11 @@ body {
     padding: 4rem;
     background: #191919;
     text-align: center;
+    border-radius: 20px;
 }
 
 .form-title {
-    color: #fff;
+    color: rgb(184, 197, 184);
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -114,6 +115,9 @@ body {
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px; 
     }
+    .buttonse:hover{
+        color: #9fb9f1;
+    }
     .btncr{
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
@@ -140,7 +144,7 @@ body {
         color: #000000;
         }
         .color{
-            border: none;
+        border: none;
         width: 100%;
         color: white;
         font-size: 20px;
@@ -154,6 +158,7 @@ body {
         border-bottom-right-radius: 50px; 
 
         }
+        
         .txt {
             
             font-size: medium;

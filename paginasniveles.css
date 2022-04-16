@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
 }
 /*Cards*/
 .container-card{
@@ -20,7 +21,9 @@
 	margin-top: 20px;
 	text-align: center;
 	color: #7a7a7a;
+	
 }
+
 .card{
 	width: 100%;
 	margin: 20px;
