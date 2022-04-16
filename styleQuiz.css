@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #2f3542;
+    
+}
+.cuestion{
+    margin-top: 3vh;
+    font-size: 2.2rem;
+    color: #CFDEFF;
+    margin-left: 2vw;
+}
+.respuestas{
+    font-size: 2.2rem;
+    color: #F2B424;
+    margin-left: 6vw;
+}
+.botonResultado{
+    margin-left: 20vw;
+    border: none;
+    width: 50vw;
+    color: white;
+    font-size: 2rem;
+    background:  #2F4473;
+    padding: 15px 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem; 
+}
+.mensajeResultado{
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    border-radius: 1rem;
+    margin-top: 10vh;
+    margin-bottom: 5vw;
+    margin-left: 20vw;
+    margin-right: 30vw;
+    font-size: 2rem;
+    color: #F2B424;
+}
