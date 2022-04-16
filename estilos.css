@@ -5,37 +5,35 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+html{
+	font-size: 62.5%;
+}
 
 body{
-	background: #D4D4D4;
+	background: #2f3542;
 	font-family: 'Open sans';
 }
 
-.wrap{
-	width: 800px;
-	max-width: 90%;
-	margin: 30px auto;
-}
 
 ul.tabs{
-	width: 100%;
+	width: 100vh;
 	background: #363636;
 	list-style: none;
 	display: flex;
 }
 
 ul.tabs li{
-	width: 18%;
+	width: 18vw;
 }
 
 ul.tabs li a{
 	color: #fff;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 16rem;
 	text-align: center;
 
 	display: block;
-	padding: 20px 0px;
+	padding: 20rem 0rem;
 }
 
 .active{
@@ -43,22 +41,71 @@ ul.tabs li a{
 }
 
 ul.tabs li a .tab-text{
-	margin-left: 8px;
+	margin-left: 8rem;
 }
-
 .secciones{
-	width: 100%;
-	background: #fff;
+	
+	margin-top: 14rem;
+	color: #D4D4D4;
+} 
+.tituloClase{
+	font-size: 3rem;
+	position: relative;
+	right: 31vw;	
 }
 
-.secciones article{
-	padding: 30px;
+.clase{
+	position: relative;
+	max-width: 100vw;
+	margin-top: 15vh;
+	color: #D4D4D4;
 }
-
-.secciones article p{
+.video{
+	width:50vw;
+	height:50vh; 
+	min-width: 90vh;
+	margin-top: 5vh;
+	display: inline-block;
+	position: absolute;
+	right: 11vw;
+	margin-right: -2vw;
+}
+.descripcion{
+	position: absolute;
+	text-align: justify;
+	font-size: 2rem;
+	right: 2vw;
+	top: 33vh;
+	margin-right: 10vw;
+	width: 30vw;
+	color: #CFDEFF;
+}
+.siguenteAnterior{
+	min-width: 30vw;
+	height: 10vh;
+	position: absolute;
+	top: 80vh;
+	right: 17vw;
 	text-align: justify;
 }
-
+.vinculoSiguiente{
+	color: #C4E34F;
+	position: absolute;
+	margin-left: 27vw;
+	font-size: 2.5rem;
+	text-decoration: none;
+	font-style:unset;
+	top: 4vw;
+}
+.vinculoAnterior{
+	color: #C4E34F;
+	position: absolute;
+	margin-left: 5vw;
+	font-size: 2.5rem;
+	text-decoration: none;
+	font-style:unset;
+	top: 4vw;
+}
 
 @media screen and (max-width: 700px){
 	ul.tabs li{
