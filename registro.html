@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TEPOSITE</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
@@ -16,17 +16,20 @@
         <img class="imgTepoIntro animated fadeInUp" src="https://i.postimg.cc/2yf8HHRS/tepo.png">
     </div>
     <div class="formularioSesion">
+        
       <form action="index.html" class="form-box animated fadeInUp">
           <h1 class="form-title">FORMULARIO DE REGISTRO</h1>
-          <input type="text" placeholder="NOMBRE" autofocus>
-          <input type="text" placeholder="APELLIDOS" >
-          <input type="text" placeholder="COREO ELECTRONICO" autofocus>
-          <input type="password" placeholder="CONTRASEÑA">
+          
+          <input type="text" name="name" placeholder="NOMBRE" autofocus>
+          <input type="text" name = "last" placeholder="APELLIDOS" >
+          <input type="text" name ="email"  placeholder="COREO ELECTRONICO" autofocus>
+          <input type="password" name = "password" placeholder="CONTRASEÑA">
+          
           <p class="txt"> Estoy de acuerdo con <a class="txt" href="#">Terminos y Condiciones</a></p>
           <br>
-          <p><a  class="txt" href="index.html">¿Ya tengo Cuenta?</a></p>
+          <p><a  class="txt" href="/index.html">¿Ya tengo Cuenta?</a></p>
           <br>
-          <button class="buttonse" type="button" onclick="location.href='index.html'">REGISTRATE</button>
+          <button class="buttonse" type="button" onclick="location.href='/index.html'">REGISTRATE</button>
       </form>
       </div>
 </body>
