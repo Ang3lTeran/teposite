@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+
+.videos{
+    width: 140vh;
+}
+.infografia{
+    width: 130vh;
+}
+.titulo{
+    text-align: center;
+    position:relative;
+    color: white;
+    font-size: 8vh;
+    font-style:inherit;
+}
+
