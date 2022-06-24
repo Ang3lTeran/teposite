@@ -29,7 +29,7 @@
 	margin: 20px;
 	border-radius: 6px;
 	overflow: hidden;
-	background:#012E8F;
+	background:var(--secundaryColor);
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
 	cursor: default;
@@ -80,7 +80,9 @@
 	}
 }
 /*Fin-Cards*/
-
+.slogan{
+	width: 30vw;
+}
 body {
     margin: 0;
     padding: 0;
@@ -93,7 +95,7 @@ body {
     align-items: center;
     /* No Scrollbar */
     overflow: hidden;
-    background-color: #2f3542;
+    
 }
 h2{
 	color: #fff;

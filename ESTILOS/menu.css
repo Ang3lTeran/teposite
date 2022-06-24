@@ -18,10 +18,10 @@
 	}
 	/*Estilos para el encabezado*/
 	.header{
-		background-color:#4D34A8;
+		background-color:var(--terciaryColor);
 		display: flex;
 		width: 100vw;
-		height: 8vh;
+		height: 12vh;
 	}
 	.container{
 		width: 40vw;
@@ -80,7 +80,7 @@
 		height: 3vw;
 		display: inline-block;
 		position: relative;
-		margin-left: 83vw;
+		margin-left: 85vw;
 		margin-top: 5wh;
 		top: 1vh;
 	}
@@ -90,6 +90,7 @@
 		display: inline-block;
 		position: relative;
 		top: 1.6vh;
+		right: 3vh;
 	}
 
 	/*Menù lateral*/

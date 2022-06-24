@@ -1,3 +1,9 @@
+:root{
+    --primaryColor:#0a4612;
+    --secundaryColor: rgba(6, 6, 59, 0.438);
+    --terciaryColor:#150d7a;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,13 +25,13 @@ body {
     align-items: center;
     /* No Scrollbar */
     overflow: hidden;
-    background-color: #2f3542;
+    background-color:var(--primaryColor);
 }
 
 .form-box {
     width: 30vw;
     padding: 4rem;
-    background: #191919;
+    background: var(--secundaryColor);
     text-align: center;
     border-radius: 20px;
 }
@@ -55,10 +61,11 @@ body {
 }
 .imgTepoIntro{
     width: 70vw;
-	height: 60vh;
+	height: 75vh;
     display: inline-block;
 	position: absolute;
     margin-right: 98vw;
+    bottom: -5vh;
 
 
 }
